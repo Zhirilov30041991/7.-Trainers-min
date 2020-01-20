@@ -36,6 +36,9 @@ header{
     background-color: rgba(0, 0, 0, 0.65);
     padding: 1.5625rem 0 0.75rem;
     background-size: cover;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
 }
 .container{
     max-width: 1170px;
@@ -158,4 +161,26 @@ a.soc_icon i{
 }
 header nav ul li a:hover{
     border-bottom: 4px solid #ff0000;
+}
+.header_title{
+   position: relative;
+}
+.header_title img{
+    width: 100%;
+}
+.red{
+    border-bottom: solid 3px #ff0000;
+}
+.title{
+    width: 1170px;
+    border-bottom: solid 3px #ff0000;
+    position: absolute;
+    bottom: 21px;
+}
+.title h1{
+    font-size: 3.176875rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 31px;
 }
