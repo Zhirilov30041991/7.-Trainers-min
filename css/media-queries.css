@@ -1,0 +1,38 @@
+/*@media screen and (min-width: 480px) and (max-width: 1200px){*/
+
+/*}*/
+
+@media only screen and (max-width: 767px) {
+    header{
+        position: relative;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .logo{
+        max-width: 130px;
+
+    }
+    .btn{
+        width: 50px;
+        color: transparent;
+        min-width: 0;
+        margin-left: 10px;
+        height: 50px;
+        overflow: hidden;
+    }
+    header form{
+        float: none;
+        width: 100%;
+    }
+    header nav ul li{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+}
+
+/*@media only screen and (max-width: 375px) {*/
+    /*.block {*/
+        /*background-color: green;*/
+    /*}*/
+/*}*/
