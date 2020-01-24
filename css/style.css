@@ -37,6 +37,7 @@
 .container{
     max-width: 1170px;
     margin: auto;
+    padding: 0 7px;
 }
 div, p, a, img, form, button{
     box-sizing: border-box;
@@ -289,9 +290,6 @@ a.footer_icons i{
 .services_vip ul{
     height: 100%;
 }
-/*.services_vip li{
-    margin-bottom: 23px;
-}*/
 .services_vip li:nth-of-type(1){
     margin-bottom: 28px;
 }

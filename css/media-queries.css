@@ -2,7 +2,7 @@
 
 /*}*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
     header{
         position: relative;
         padding: 0 15px;
@@ -20,6 +20,12 @@
         height: 50px;
         overflow: hidden;
     }
+    .services_social{
+        display: none;
+    }
+     .services_vip{
+        margin: auto;
+    }
     header form{
         float: none;
         width: 100%;
@@ -30,6 +36,32 @@
         text-align: center;
     }
 }
+@media only screen and (max-width: 768px) {
+  .services{
+    flex-wrap: wrap;
+  }
+  .services_vip{
+    margin-bottom: 40px;
+  }
+  .footer{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .services{
+    flex-wrap: wrap;
+  }
+ }
+ @media only screen and (max-width: 430px) {
+  .services{
+    flex-direction: column;
+  }
+  .subscribe_form input {
+    text-align: center;
+    padding-left: 0px;
+   
+  }
+ }
 
 /*@media only screen and (max-width: 375px) {*/
     /*.block {*/
